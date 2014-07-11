@@ -1,3 +1,4 @@
 @echo off
-set classpath="ojdbc7.jar;classes;."
-c:\jdk\7u65\bin\java -classpath %CLASSPATH% fuzzj.FuzzJ
+set JAVA=c:\java64\jdk1.7.0_55\bin\java.exe
+set classpath="jars\*.jar;classes;."
+%JAVA% -classpath %CLASSPATH% fuzzj.FuzzJ
